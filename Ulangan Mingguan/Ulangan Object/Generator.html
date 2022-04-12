@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Generator</title>
+</head>
+<body>
+    <table border="1">
+        <tr>
+            <th rowspan="2" >Gambar</th>
+            <th colspan="2" >Object</th>
+            
+        </tr>
+        <t>
+            <th width = 50%> Properti</th>
+            <th width = 50%>Method</th>
+        </tr>
+
+        <tr>
+            
+        </tr>
+        <tr>
+            <th rowspan="10"> 
+                <img src="../Ulangan Object/image/Genset.jpg" width="300">
+                 </th>
+            <td id="1"></td>
+            <td id="2"></td>
+           
+        </tr>
+
+        <tr>
+            <td id="3"></td>
+            <td id="4"></td>
+        </tr>
+        
+        <tr>
+            <td id="5"></td>
+            <td id="6"></td>
+        </tr>
+
+        <tr>
+            <td id="7"></td>
+            <td id="8"></td>
+        </tr>
+
+        <tr>
+            <td id="9"></td>
+            <td id="10"></td>
+        </tr>
+
+        <tr>
+            <td id="11"></td>
+            <td id="12"></td>
+        </tr>
+
+        <tr>
+            <td id="13"></td>
+            <td id="14"></td>
+        </tr>
+
+        <tr>
+            <td id="15"></td>
+            <td id="16"></td>
+        </tr>
+
+        <tr>
+            <td id="17"></td>
+            <td id="18"></td>
+        </tr>
+
+        <tr>
+            <td id="19"></td>
+            <td id="20"></td>
+        </tr>
+
+        <tr>
+            
+            
+        </tr>
+
+    </table>
+
+    <script>
+        var vcm = {
+    // properti
+    type: "Genset", 
+    model: "Yama 1200", 
+    color: "Red",
+    MaxP : "10 KW",
+    RatedP : "9 KW",
+    Phase : "1 / Single Phase",
+    material : "Besi",
+    FuelTnk : "38 L",
+    OilCpt : "1.8 L",
+    starting : "Electric Start",
+
+    
+
+    // method
+    a: function(){
+        document.getElementById("2").innerHTML = "ON";
+    },
+    b: function(){
+        document.getElementById("4").innerHTML = "OF";
+    },
+    c: function(){
+        document.getElementById("6").innerHTML = "Memberi Daya";
+    },
+    d: function(){
+        document.getElementById("8").innerHTML = "Memakani Oli";
+    },
+    e: function(){
+        document.getElementById("10").innerHTML = "Penyelamat";
+    },
+ 
+
+    
+};
+
+vcm.a();
+
+vcm.b();
+
+vcm.c();
+
+vcm.d();
+
+vcm.e();
+
+
+//Properti
+
+document.getElementById("1").innerHTML = "Type : " + vcm.type;
+
+document.getElementById("3").innerHTML = "Model : " + vcm.model;
+
+document.getElementById("5").innerHTML = "Color : " + vcm.color;
+
+document.getElementById("7").innerHTML = "Max KWH : " + vcm.MaxP;
+
+document.getElementById("9").innerHTML = "Rated KWH : " + vcm.RatedP;
+
+document.getElementById("11").innerHTML = "Phase : " + vcm.Phase;
+
+document.getElementById("13").innerHTML = "Material : " + vcm.material;
+
+document.getElementById("15").innerHTML = "Fuel Tank : " + vcm.FuelTnk;
+
+document.getElementById("17").innerHTML = "Kapasitas Oli : " + vcm.OilCpt;
+
+document.getElementById("19").innerHTML = "Starting : " + vcm.starting;
+
+
+    </script>
+</body>
+</html>

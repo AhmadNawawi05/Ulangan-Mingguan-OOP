@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kain</title>
+</head>
+<body>
+    <table border="1">
+        <tr>
+            <th rowspan="2" >Gambar</th>
+            <th colspan="2" >Object</th>
+            
+        </tr>
+        <t>
+            <th width = 50%> Properti</th>
+            <th width = 50%>Method</th>
+        </tr>
+
+        <tr>
+            
+        </tr>
+        <tr>
+            <th rowspan="10"> 
+                      <img src="../Ulangan Object/image/Kain.jpg" width="300">
+                 </th>
+            <td id="1"></td>
+            <td id="2"></td>
+           
+        </tr>
+
+        <tr>
+            <td id="3"></td>
+            <td id="4"></td>
+        </tr>
+        
+        <tr>
+            <td id="5"></td>
+            <td id="6"></td>
+        </tr>
+
+        <tr>
+            <td id="7"></td>
+            <td id="8"></td>
+        </tr>
+
+        <tr>
+            <td id="9"></td>
+            <td id="10"></td>
+        </tr>
+
+      
+            
+        </tr>
+
+        
+        
+
+    </table>
+
+    <script>
+        var vcm = {
+    // properti
+    type: "Kain", 
+    model: "Distro", 
+    color: "Black",
+    Panjang : "4 M (Situasional)",
+    Lebar : "2 M (Situasional)",
+    
+
+    // method
+    a: function(){
+        document.getElementById("2").innerHTML = "ON";
+    },
+    b: function(){
+        document.getElementById("4").innerHTML = "OF";
+    },
+    c: function(){
+        document.getElementById("6").innerHTML = "Di Jahit";
+    },
+    d: function(){
+        document.getElementById("8").innerHTML = "Di Sablon";
+    },
+    e: function(){
+        document.getElementById("10").innerHTML = "Jadi Baju";
+    },
+
+    
+};
+
+vcm.a();
+
+vcm.b();
+
+vcm.c();
+
+vcm.d();
+
+vcm.e();
+
+
+
+//Properti
+
+document.getElementById("1").innerHTML = "Type : " + vcm.type;
+
+document.getElementById("3").innerHTML = "Model : " + vcm.model;
+
+document.getElementById("5").innerHTML = "Color : " + vcm.color;
+
+document.getElementById("7").innerHTML = "Pamjang : " + vcm.Panjang;
+
+document.getElementById("9").innerHTML = "Lebar : " + vcm.Lebar;
+
+    </script>
+</body>
+</html>

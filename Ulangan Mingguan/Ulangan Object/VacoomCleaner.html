@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vacoom Cleaner</title>
+</head>
+<body>
+    <table border="1">
+        <tr>
+            <th rowspan="2" >Gambar</th>
+            <th colspan="2" >Vacoom Cleaner</th>
+            
+        </tr>
+        <t>
+            <th width = 50%> Properti</th>
+            <th width = 50%>Method</th>
+        </tr>
+
+        <tr>
+            
+        </tr>
+        <tr>
+            <th rowspan="10"> 
+                <img src="../Ulangan Object/image/Vc.jpg" width="300">
+                 </th>
+            <td id="1"></td>
+            <td id="2"></td>
+           
+        </tr>
+
+        <tr>
+            <td id="3"></td>
+            <td id="4"></td>
+        </tr>
+        
+        <tr>
+            <td id="5"></td>
+            <td id="6"></td>
+        </tr>
+
+        <tr>
+            <td id="7"></td>
+            <td id="8"></td>
+        </tr>
+
+        <tr>
+            <td id="9"></td>
+            <td id="10"></td>
+        </tr>
+
+        <tr>
+            <td id="11"></td>
+            <td id="12"></td>
+        </tr>
+
+        <tr>
+            <td id="13"></td>
+            <td id="14"></td>
+        </tr>
+
+        <tr>
+            <td id="15"></td>
+            <td id="16"></td>
+        </tr>
+
+        <tr>
+            <td id="17"></td>
+            <td id="18"></td>
+        </tr>
+
+        <tr>
+            <td id="19"></td>
+            <td id="20"></td>
+        </tr>
+
+        <tr>
+            
+            
+        </tr>
+
+        
+        
+
+    </table>
+
+    <script>
+        var vcm = {
+    // properti
+    type: "Oxone", 
+    model: "V3", 
+    color: "Black",
+    voltage : "600 WAT",
+    DustCapacity : "2 Liter",
+    DirtCup : "1 Volume",
+    material : "Plastic",
+    PowerCord : "Corded",
+    CordLength : "3 Meter",
+    SpeedControl : "Yes",
+
+    
+
+    // method
+    a: function(){
+        document.getElementById("2").innerHTML = "ON";
+    },
+    b: function(){
+        document.getElementById("4").innerHTML = "OF";
+    },
+    c: function(){
+        document.getElementById("6").innerHTML = "Menyedot";
+    },
+    d: function(){
+        document.getElementById("8").innerHTML = "Jalan";
+    },
+    e: function(){
+        document.getElementById("10").innerHTML = "Mundur";
+    },
+    f: function(){
+        document.getElementById("12").innerHTML = "Maju";
+    },
+    g: function(){
+        document.getElementById("14").innerHTML = "Menyedot Debu";
+    },
+    h: function(){
+        document.getElementById("16").innerHTML = "Menyerong";
+    },
+    i: function(){
+        document.getElementById("18").innerHTML = "Rusak";
+    },
+    j: function(){
+        document.getElementById("20").innerHTML = "Membersihkan Ruangan";
+    },
+
+    
+};
+
+vcm.a();
+
+vcm.b();
+
+vcm.c();
+
+vcm.d();
+
+vcm.e();
+
+vcm.f();
+
+vcm.g();
+
+vcm.h();
+
+vcm.i();
+
+vcm.j();
+
+//Properti
+
+document.getElementById("1").innerHTML = "Type : " + vcm.type;
+
+document.getElementById("3").innerHTML = "Model : " + vcm.model;
+
+document.getElementById("5").innerHTML = "Color : " + vcm.color;
+
+document.getElementById("7").innerHTML = "Voltage : " + vcm.voltage;
+
+document.getElementById("9").innerHTML = "Dust Capacity : " + vcm.DustCapacity;
+
+document.getElementById("11").innerHTML = "Dirt Cup : " + vcm.DirtCup;
+
+document.getElementById("13").innerHTML = "Material : " + vcm.material;
+
+document.getElementById("15").innerHTML = "Power Cord : " + vcm.PowerCord;
+
+document.getElementById("17").innerHTML = "Cord Lenght : " + vcm.CordLength;
+
+document.getElementById("19").innerHTML = "Speed Control : " + vcm.SpeedControl;
+
+
+    </script>
+</body>
+</html>
